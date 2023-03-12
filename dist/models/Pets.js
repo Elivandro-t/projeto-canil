@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.petf = exports.data = void 0;
+exports.petf = void 0;
 //meus models, funcoes que retorna objetos 
-exports.data = [
+const data = [
     {
         type: 'dog',
         image: 'pastor-alemao.jpg',
@@ -151,15 +151,15 @@ exports.data = [
 //usando tipagem, da tudo
 exports.petf = {
     getAll: () => {
-        return exports.data;
+        return data;
     },
     // da so os tapes que eu quero
     dogAll: (type) => {
-        return exports.data.filter(item => item.type === type);
+        return data.filter(item => item.type === type);
     },
     //funcoao que eu preciso nos parametros
     getdataname: (name) => {
-        return exports.data.filter(item => item.name.toLocaleLowerCase().indexOf(name.toLocaleLowerCase()) > -1);
+        return data.filter(item => item.name.toLocaleLowerCase().indexOf(name.toLocaleLowerCase()) > -1);
     }
 };
 //usando tipagem

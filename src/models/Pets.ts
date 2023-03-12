@@ -9,7 +9,7 @@ type pet = {
     preco: number
 }
 //meus models, funcoes que retorna objetos 
-export const data: pet[] = [
+const data: pet[] = [
     {
         type: 'dog',
         image: 'pastor-alemao.jpg',
