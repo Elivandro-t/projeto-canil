@@ -2,7 +2,7 @@
   "name": "projeto-canil",
   "version": "1.0.0",
   "description": "site sobre  animais",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
     "node": "18.x"
   },
