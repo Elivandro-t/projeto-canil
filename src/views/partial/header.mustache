@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -6,13 +6,16 @@
     <title>project post - O petshop do devs</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="icon" type="images/png" href="/images/pen.png" />
+    <script type="text/javascript" src="/css/script.js"></script>
 </head>
 <body>
 <header>
     <div class="container">
         <a href="/">project post</a>
-        <form method="GET" action="/search">
-            <input class="input-pesq" type="search" name="q" value='{{query}}' placeholder="Pesquise por raça.." />
+    
+            <img class="search-lup" onclick="clicou()"src="/images/lupa.png" alt="">
+        <form method="GET"action="/search" id='menu-area' class= 'meno-open'>
+            <input type="search" class="sc" name="q" value='{{query}}' placeholder="Pesquise por raça.." />
         </form>
     </div>
 </header>

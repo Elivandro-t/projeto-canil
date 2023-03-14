@@ -51,5 +51,3 @@ export const fishes = (req:Request,res:Response)=>{
     })
 };
 //fim rotas menus
-
-

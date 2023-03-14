@@ -100,7 +100,7 @@ h2 {
 }
 .item--image {
     width: 100%;
-    height: auto;
+    height:200px;
     border-radius: 5px;
 }
 .item--name {
@@ -116,7 +116,16 @@ h2 {
     color: var(--lighter);
     margin-bottom: 3px;
 }
-
+.search-lup{
+    width:20px;
+    height:15px;
+    position: absolute;
+    right:0;
+    margin-right:3px;
+    image-resolution: 50px;
+    background-image: -moz-linear-gradient(2px #888);
+    
+}
 footer {
     border-top: 1px solid var(--lighter);
     padding: 20px 0 !important;
@@ -154,7 +163,7 @@ footer {
     header .container {
         flex-direction: column;
     }
-    header input {
+    header .sc {
         max-width: 100%;
 
     }
@@ -166,5 +175,13 @@ footer {
     }
     .list {
         grid-template-columns: 1fr;
+    }
+    .lupa{
+        display: block;
+        margin-bottom:10px;
+    }
+    .meno-open{
+        max-width: 100%;
+        display:none;
     }
 }
