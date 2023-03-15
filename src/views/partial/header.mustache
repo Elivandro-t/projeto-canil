@@ -12,7 +12,6 @@
 <header>
     <div class="container">
         <a href="/">project post</a>
-    
             <img class="search-lup" onclick="clicou()"src="/images/lupa.png" alt="">
         <form method="GET"action="/search" id='menu-area' class= 'meno-open'>
             <input type="search" class="sc" name="q" value='{{query}}' placeholder="Pesquise por raça.." />
@@ -26,6 +25,7 @@
         <li class="{{#menu.dog}}active{{/menu.dog}}"><a href="/dogs">Cachorros</a></li>
         <li class="{{#menu.cat}}active{{/menu.cat}}"><a href="/cats">Gatos</a></li>
         <li class="{{#menu.fish}}active{{/menu.fish}}"><a href="/fishes">Peixes</a></li>
+        <li class="{{#menu.sobre}}active{{/menu.sobre}}"><a href="/sobre"></a></li>
     </ul>
     <!--menu -->
 </nav>

@@ -1,4 +1,4 @@
-type menuoption = ''| 'all' | 'dog' |'cat' | 'fish';
+type menuoption = ''| 'all' | 'dog' |'cat' | 'fish'| 'sobre';
 //funcao que retorna um boleano para a paina
 
 export const createmenuobjet = (activemenu:menuoption)=>{
@@ -6,7 +6,8 @@ export const createmenuobjet = (activemenu:menuoption)=>{
         all:false,
         dog:false,
         cat:false,
-        fish:false
+        fish:false,
+        sobre:false
     }
     if(activemenu !== '' ){ 
         return retunobj[activemenu] = true;
