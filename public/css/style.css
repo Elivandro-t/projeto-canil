@@ -160,6 +160,11 @@ footer {
         image-resolution: 50px;
         background-image: -moz-linear-gradient(2px #888);
         display: block;
+    }
+    .meno-open{
+        max-width: 100%;
+        display:none;
+    }
 }
 
 @media (max-width: 400px) {
@@ -196,4 +201,5 @@ footer {
         image-resolution: 50px;
         background-image: -moz-linear-gradient(2px #888);
         display: block;
+    }
 }
