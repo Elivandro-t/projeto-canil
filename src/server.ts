@@ -6,6 +6,7 @@ import dotenv from "dotenv"
 
 dotenv.config();
 const server = express();
+const http = "http"
 /* adicionando  templete html com mustache */
 server.set('view engine','mustache')
 server.set('views', path.join(__dirname,'views'));
@@ -20,4 +21,5 @@ server.use((req:Request,res:Response)=>{
     res.render('pages/404')
 });
 
-server.listen(process.env.PORT)
+//server.listen(process.env.PORT)
+server.listen(4000)

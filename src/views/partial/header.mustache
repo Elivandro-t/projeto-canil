@@ -1,20 +1,18 @@
-<html>
+<!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project post - O petshop do devs</title>
+    <title>Project Post - O petshop do devs</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="icon" type="images/png" href="/images/pen.png" />
-    <script type="text/javascript" src="/css/script.js"></script>
 </head>
 <body>
 <header>
     <div class="container">
-        <a href="/">project post</a>
-            <img class="search-lup" onclick="clicou()"src="/images/lupa.png" alt="">
-        <form method="GET"action="/search" id='menu-area' class= 'meno-open'>
-            <input type="search" class="sc" name="q" value='{{query}}' placeholder="Pesquise por raça.." />
+        <a href="/">Project Post</a>
+        <form method="GET" action="/search">
+            <input class="input-pesq" type="search" name="q" value='{{query}}' placeholder="Pesquise por raça.." />
         </form>
     </div>
 </header>
@@ -25,7 +23,6 @@
         <li class="{{#menu.dog}}active{{/menu.dog}}"><a href="/dogs">Cachorros</a></li>
         <li class="{{#menu.cat}}active{{/menu.cat}}"><a href="/cats">Gatos</a></li>
         <li class="{{#menu.fish}}active{{/menu.fish}}"><a href="/fishes">Peixes</a></li>
-        <li class="{{#menu.sobre}}active{{/menu.sobre}}"><a href="/sobre">sobre</a></li>
     </ul>
     <!--menu -->
 </nav>
