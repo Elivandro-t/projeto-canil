@@ -16,7 +16,7 @@ server.set('views', path_1.default.join(__dirname, 'views'));
 server.engine('mustache', (0, mustache_express_1.default)());
 /*voltar um diretorio */
 server.use(express_1.default.static(path_1.default.join(__dirname, '../public')));
-/*permitindo que o servidor peque dados internos da url */
+/*permitindo que o servidor pegue dados internos da url */
 server.use(express_1.default.urlencoded({ extended: true }));
 server.use(index_1.default);
 server.use((req, res) => {

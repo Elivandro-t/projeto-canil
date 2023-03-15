@@ -12,7 +12,7 @@ server.set('views', path.join(__dirname,'views'));
 server.engine('mustache', mustache());
 /*voltar um diretorio */
 server.use(express.static(path.join(__dirname, '../public')))
-/*permitindo que o servidor peque dados internos da url */
+/*permitindo que o servidor pegue dados internos da url */
 server.use(express.urlencoded({extended:true}))
 
 server.use(mainrouter)
