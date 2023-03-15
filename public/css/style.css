@@ -117,13 +117,7 @@ h2 {
     margin-bottom: 3px;
 }
 .search-lup{
-    width:20px;
-    height:15px;
-    position: absolute;
-    right:0;
-    margin-right:3px;
-    image-resolution: 50px;
-    background-image: -moz-linear-gradient(2px #888);
+    display: none;
     
 }
 footer {
@@ -157,6 +151,15 @@ footer {
     .list {
         grid-template-columns: repeat(2, 1fr);
     }
+    .search-lup{
+        width:20px;
+        height:15px;
+        position: absolute;
+        right:0;
+        margin-right:3px;
+        image-resolution: 50px;
+        background-image: -moz-linear-gradient(2px #888);
+        display: block;
 }
 
 @media (max-width: 400px) {
@@ -184,4 +187,13 @@ footer {
         max-width: 100%;
         display:none;
     }
+    .search-lup{
+        width:20px;
+        height:15px;
+        position: absolute;
+        right:0;
+        margin-right:3px;
+        image-resolution: 50px;
+        background-image: -moz-linear-gradient(2px #888);
+        display: block;
 }
