@@ -32,13 +32,17 @@ header a {
     color: var(--main);
 }
 header input {
-    padding: 7px 10px;
+    padding: 5px 10px;
     font-size: 14px;
     border-radius: 4px;
-    max-width:400px;
+    width:310px;
     outline: none;
-    background-color: #102581;
-    color: white;
+    background-color: white;
+    color:black;
+    margin-left: 4px;
+    border: #FFF;
+    border-bottom:1px solid #362f92;
+
     
 }
 nav {
@@ -166,6 +170,17 @@ footer {
         margin-right: 3px;
         display: none;
     }
+    header input {
+        padding: 7px 10px;
+        font-size: 14px;
+        border-radius: 4px;
+        width:100%;
+        outline: none;
+        color: white;
+
+    
+        
+    }
     
 }
 @media (max-width: 400px) {
@@ -192,5 +207,18 @@ footer {
     .meno-open{
         max-width: 100%;
         display:none;
+    }
+    header input {
+        padding: 7px 10px;
+        font-size: 14px;
+        border-radius: 4px;
+        width:100%;
+        outline: none;
+        background-color: white;
+        color:black;
+        margin-left: 4px;
+        border: #FFF;
+        border-bottom:1px solid #362f92;
+        
     }
 }
