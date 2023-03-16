@@ -117,13 +117,7 @@ h2 {
     margin-bottom: 3px;
 }
 .search-lup{
-    width:20px;
-    height:15px;
-    position: absolute;
-    right:0;
-    margin-right:3px;
-    image-resolution: 50px;
-    background-image: -moz-linear-gradient(2px #888);
+    display:none;
     
 }
 footer {
@@ -158,6 +152,21 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+.search-lup{
+    width:20px;
+    height:15px;
+    position: absolute;
+    right:0;
+    margin-right:3px;
+    image-resolution: 50px;
+    background-image: -moz-linear-gradient(2px #888);
+    display:none;
+    
+}.meno-open{
+    max-width: 100%;
+    margin-right: 3px;
+}
+
 
 @media (max-width: 400px) {
     header .container {

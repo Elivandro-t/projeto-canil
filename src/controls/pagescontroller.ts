@@ -50,4 +50,13 @@ export const fishes = (req:Request,res:Response)=>{
         list
     })
 };
+export const sobre = (req:Request,res:Response)=>{
+    res.render('pages/sobre.mustache',{
+        menu:createmenuobjet('sobre'),
+        banner:{
+            title:'sobre nos',
+
+        },
+    })
+};
 //fim rotas menus
