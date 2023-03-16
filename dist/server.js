@@ -22,4 +22,4 @@ server.use(index_1.default);
 server.use((req, res) => {
     res.render('pages/404');
 });
-server.listen(3000);
+server.listen(process.env.PORT);
