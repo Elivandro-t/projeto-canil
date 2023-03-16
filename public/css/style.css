@@ -159,11 +159,11 @@ footer {
         height:15px;
         position: absolute;
         right:0;
-        margin-right:3px;
+        margin-right:10px;
         image-resolution: 50px;
         background-image: -moz-linear-gradient(2px #888);
         display: block;
-        margin-bottom:5px;
+        margin-bottom:4px;
     }
     .meno-open{
         max-width: 100%;
@@ -180,6 +180,13 @@ footer {
 
     
         
+    }
+    header .sc {
+        max-width: 100%;
+
+    }
+    header .container {
+        flex-direction: column;
     }
     
 }
@@ -216,7 +223,6 @@ footer {
         outline: none;
         background-color: white;
         color:black;
-        margin-left: 4px;
         border: #FFF;
         border-bottom:1px solid #362f92;
         
