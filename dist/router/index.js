@@ -32,6 +32,7 @@ router.get("/", controlles.home);
 router.get("/dogs", controlles.dogs);
 router.get("/cats", controlles.cats);
 router.get("/fishes", controlles.fishes);
+router.get("/sobre", controlles.sobre);
 //fim rotas menus
 //rotas pesquisas
 router.get("/search", scearch_controlles.search);

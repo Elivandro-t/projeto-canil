@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.fishes = exports.cats = exports.dogs = exports.home = void 0;
+exports.sobre = exports.fishes = exports.cats = exports.dogs = exports.home = void 0;
 const crietemenuobj_1 = require("../helpers/crietemenuobj");
 const Pets_1 = require("../models/Pets");
 //rotas menus
@@ -52,4 +52,13 @@ const fishes = (req, res) => {
     });
 };
 exports.fishes = fishes;
+const sobre = (req, res) => {
+    res.render('pages/sobre.mustache', {
+        menu: (0, crietemenuobj_1.createmenuobjet)('sobre'),
+        banner: {
+            title: 'sobre nos',
+        },
+    });
+};
+exports.sobre = sobre;
 //fim rotas menus

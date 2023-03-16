@@ -7,7 +7,8 @@ const createmenuobjet = (activemenu) => {
         all: false,
         dog: false,
         cat: false,
-        fish: false
+        fish: false,
+        sobre: false
     };
     if (activemenu !== '') {
         return retunobj[activemenu] = true;
