@@ -116,16 +116,15 @@ h2 {
     color: var(--lighter);
     margin-bottom: 3px;
 }
-.search-lup{
-    display:none;
-    
-}
 footer {
     border-top: 1px solid var(--lighter);
     padding: 20px 0 !important;
     text-align: center;
     font-size: 16px;
     color: var(--main);
+}
+.search-lup{
+    display:none;
 }
 
 @media (max-width: 900px) {
@@ -151,23 +150,24 @@ footer {
     .list {
         grid-template-columns: repeat(2, 1fr);
     }
-}
-.search-lup{
-    width:20px;
-    height:15px;
-    position: absolute;
-    right:0;
-    margin-right:3px;
-    image-resolution: 50px;
-    background-image: -moz-linear-gradient(2px #888);
-    display:none;
+    .search-lup{
+        width:20px;
+        height:15px;
+        position: absolute;
+        right:0;
+        margin-right:3px;
+        image-resolution: 50px;
+        background-image: -moz-linear-gradient(2px #888);
+        display: block;
+        margin-bottom:5px;
+    }
+    .meno-open{
+        max-width: 100%;
+        margin-right: 3px;
+        display: none;
+    }
     
-}.meno-open{
-    max-width: 100%;
-    margin-right: 3px;
 }
-
-
 @media (max-width: 400px) {
     header .container {
         flex-direction: column;
@@ -187,7 +187,7 @@ footer {
     }
     .lupa{
         display: block;
-        margin-bottom:10px;
+        margin-bottom:5px;
     }
     .meno-open{
         max-width: 100%;
